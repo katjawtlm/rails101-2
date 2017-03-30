@@ -3,6 +3,6 @@ class GroupsController < ApplicationController
     @groups = Group.all
   end
   def new
-    @groups = Group.new
-  end
+   @group = Group.new
+ end
 end
